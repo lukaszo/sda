@@ -68,7 +68,7 @@ def obsluz(dyrektor, linia):
         student_id = linia[2]
         print(dyrektor.grupa_frekwencja_student(grupa_id, student_id))
     else:
-        print("nieznan komenda")
+        print("nieznan komenda :(")
 
 
 def run():
